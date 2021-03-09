@@ -1,0 +1,26 @@
+{
+  "name": "posts",
+  "scripts": {
+    "start": "webpack serve --port 3002"
+  },
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "core-js": "^3.9.1",
+    "html-loader": "^2.1.1",
+    "reflect-metadata": "^0.1.13",
+    "ts-loader": "^8.0.17"
+  },
+  "dependencies": {
+    "@angular/common": "^11.2.4",
+    "@angular/compiler": "^11.2.4",
+    "@angular/core": "^11.2.4",
+    "@angular/platform-browser": "^11.2.4",
+    "@angular/platform-browser-dynamic": "^11.2.4",
+    "@babel/plugin-proposal-decorators": "^7.13.5",
+    "rxjs": "^6.6.6",
+    "single-spa-angular": "^4.9.2",
+    "to-string-loader": "^1.1.6",
+    "zone.js": "^0.11.4"
+  }
+}

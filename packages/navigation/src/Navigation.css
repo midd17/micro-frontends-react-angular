@@ -1,0 +1,19 @@
+.nav-bar {
+  background-color: #005A9C;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  box-shadow: 3px 3px 3px lightgray;
+}
+
+.nav-bar .nav-bar__item {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-right: 15px;
+}
+
+.nav-bar .nav-bar__item:hover {
+  text-decoration: underline;
+}

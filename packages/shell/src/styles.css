@@ -1,0 +1,18 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.application-header {
+  margin-bottom: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
