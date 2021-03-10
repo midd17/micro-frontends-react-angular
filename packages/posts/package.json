@@ -11,6 +11,7 @@
     "reflect-metadata": "^0.1.13",
     "sass": "^1.32.8",
     "sass-loader": "^11.0.1",
+    "to-string-loader": "^1.1.6",
     "ts-loader": "^8.0.17"
   },
   "dependencies": {
@@ -22,7 +23,6 @@
     "@babel/plugin-proposal-decorators": "^7.13.5",
     "rxjs": "^6.6.6",
     "single-spa-angular": "^4.9.2",
-    "to-string-loader": "^1.1.6",
     "zone.js": "^0.11.4"
   }
 }

@@ -11,11 +11,13 @@
     "@babel/preset-typescript": "^7.12.7",
     "babel-loader": "^8.2.2",
     "css-loader": "^5.1.1",
-    "single-spa-react": "^4.1.1",
+    "sass": "^1.32.8",
+    "sass-loader": "^11.0.1",
     "style-loader": "^2.0.0"
   },
   "dependencies": {
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "single-spa-react": "^4.1.1"
   }
 }

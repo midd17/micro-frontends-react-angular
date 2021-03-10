@@ -1,5 +1,5 @@
 import React, { useCallback } from 'react';
-import './Navigation.css';
+import './Navigation.scss';
 
 export default (props) => {
   const navigateTo = useCallback((event) => {
