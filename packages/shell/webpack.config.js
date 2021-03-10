@@ -54,7 +54,7 @@ module.exports = {
       },
       exposes: {},
       shared: {
-        '@angular/core': { singleton: true, eager: true }, 
+        '@angular/core': { singleton: true }, 
         '@angular/common': { singleton: true }, 
         '@angular/platform-browser-dynamic': { singleton: true }, 
         '@angular/platform-browser': { singleton: true }, 

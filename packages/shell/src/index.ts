@@ -1,8 +1,12 @@
 import { registerApplication, start } from 'single-spa';
 
-// Load root frameworks
+// Load root framework for the header since it's always present
 import 'react';
-// import 'react-dom';
+import 'react-dom';
+
+// Some examples of pre-loading the package  
+import(/* webpackPreload: true */ '@angular/core');
+import(/* webpackPreload: true */ '@angular/common');
 
 // Load root css
 import './styles.css';
