@@ -28,18 +28,19 @@ module.exports = {
   module: {
     rules: [
       { 
-        test: /component\.css$/, 
-        type: 'asset/source'
+        test: /\.scss$/, 
+        type: 'asset/source',
+        use: ['sass-loader']
       },
       { 
-        test: /component\.html$/, 
+        resourceQuery: /raw/, 
         type: 'asset/source'
       },
       {
         test: /\.tsx?$/,
-        loader: "ts-loader"
+        loader: 'ts-loader'
       },
-    ],
+    ]
   },
 
   plugins: [

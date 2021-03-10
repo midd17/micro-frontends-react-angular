@@ -1,0 +1,22 @@
+// Re-used variables
+$post-background-color: #ebebeb;
+$box-shadow-color: lightgrey;
+$description-color: #3b3b3b;
+
+.post {
+  padding: 20px;
+  margin-top: 15px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 4px $box-shadow-color;
+  background-color: $post-background-color;
+}
+
+.post__title {
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.post__body {
+  color: $description-color;
+}

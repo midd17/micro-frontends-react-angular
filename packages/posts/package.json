@@ -9,6 +9,8 @@
     "core-js": "^3.9.1",
     "html-loader": "^2.1.1",
     "reflect-metadata": "^0.1.13",
+    "sass": "^1.32.8",
+    "sass-loader": "^11.0.1",
     "ts-loader": "^8.0.17"
   },
   "dependencies": {
