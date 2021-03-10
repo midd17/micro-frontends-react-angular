@@ -2,7 +2,7 @@ import { registerApplication, start } from 'single-spa';
 
 // Load root frameworks
 import 'react';
-import '@angular/core';
+// import 'react-dom';
 
 // Load root css
 import './styles.css';

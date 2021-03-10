@@ -62,7 +62,7 @@ module.exports = {
         'zone.js': { singleton: true },
         'core-js/features/reflect': { singleton: true },
         'react': { singleton: true, eager: true },
-        'react-dom': { singleton: true },
+        'react-dom': { singleton: true, eager: true },
         'single-spa-react': { singleton: true }
       },
     }),
