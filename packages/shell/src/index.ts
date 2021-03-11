@@ -5,8 +5,10 @@ import 'react';
 import 'react-dom';
 
 // Some examples of pre-loading the package  
-import(/* webpackPreload: true */ '@angular/core');
-import(/* webpackPreload: true */ '@angular/common');
+(() => {
+  import(/* webpackPreload: true */ '@angular/core');
+  import(/* webpackPreload: true */ '@angular/common');
+});
 
 // Load root css
 import './styles.css';
