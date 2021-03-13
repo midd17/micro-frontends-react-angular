@@ -1,10 +1,6 @@
 const ModuleFederationPlugin = require('webpack/lib/container/ModuleFederationPlugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
-const fs = require('fs');
-const AssetsPlugin = require('assets-webpack-plugin');
-const assetsPluginInstance = new AssetsPlugin({ includeDynamicImportedAssets: true });
-
 
 module.exports = {
   entry: './src/index',
@@ -70,13 +66,8 @@ module.exports = {
         'single-spa-react': { singleton: true }
       },
     }),
-    assetsPluginInstance,
     new HtmlWebpackPlugin({
-      template: './public/index.html',
-      excludeChunks: ['preload'],
-      templateParameters: () => ({
-        stats: require('./webpack-assets.json')
-      })
+      template: './public/index.html'
     }),
   ],
 }

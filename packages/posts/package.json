@@ -1,7 +1,8 @@
 {
   "name": "posts",
   "scripts": {
-    "start": "webpack serve --port 3002"
+    "start": "webpack serve --port 3002",
+    "build": "webpack --mode=production"
   },
   "version": "1.0.0",
   "private": true,
