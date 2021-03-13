@@ -7,7 +7,7 @@ import 'react-dom';
 // Load root css
 import './styles.css';
 
-const items = [
+const menuItems = [
   {
     path: '/',
     label: 'Home'
@@ -23,7 +23,7 @@ registerApplication(
   // @ts-ignore
   () => import('navigation'),
   () => true,
-  { items }
+  { items: menuItems }
 );
 
 registerApplication(

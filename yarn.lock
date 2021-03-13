@@ -30,10 +30,24 @@
   dependencies:
     tslib "^2.0.0"
 
+"@angular/platform-browser-dynamic@^11.2.5":
+  version "11.2.5"
+  resolved "https://registry.yarnpkg.com/@angular/platform-browser-dynamic/-/platform-browser-dynamic-11.2.5.tgz#2dfb5ccd700818a9f3bb756401642f043b0c2dfe"
+  integrity sha512-PlERCDlCCwnTpAikKyIMNwkzj6Un5GwnI0EmO4HY+y/iFDOxrXPnhZBCik0o2asl+WsvDVKpk3TLpXUkaD8fEA==
+  dependencies:
+    tslib "^2.0.0"
+
 "@angular/platform-browser@^11.2.4":
   version "11.2.4"
   resolved "https://registry.yarnpkg.com/@angular/platform-browser/-/platform-browser-11.2.4.tgz#fd095bbcb002e02e32094f533d53b3b4d19e4eb7"
   integrity sha512-GOHUM6/r+JXCpVSSY+ET/BqkwqHymdvVTOh9/J/pgSlpPT/5lvjDtbPgdhYOkUsMTkZzKjoXLMcQVtZTCqHdfQ==
+  dependencies:
+    tslib "^2.0.0"
+
+"@angular/platform-browser@^11.2.5":
+  version "11.2.5"
+  resolved "https://registry.yarnpkg.com/@angular/platform-browser/-/platform-browser-11.2.5.tgz#a00829cf0c23a3bfd28942fac35fafde9a7c970c"
+  integrity sha512-Cci6YufPi4RjHloQlu/Pxa2AnOTe45SqqngdIK4cVYSLbiR0Trlhjfqs30Z6WOLEHvKq2x6tLjbo+2PrIoC9Qg==
   dependencies:
     tslib "^2.0.0"
 

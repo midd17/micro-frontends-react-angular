@@ -1,9 +1,9 @@
 import { registerApplication, start } from 'single-spa';
 
 registerApplication(
-  'posts',
+  'root',
   // @ts-ignore
-  () => import('./index'),
+  () => import('./src/index'),
   (location) => true,
 );
 
