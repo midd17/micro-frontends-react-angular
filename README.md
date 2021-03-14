@@ -31,7 +31,7 @@ In order to optimize the page rendrering process, we need to take care of pre-lo
 Webpack supports this functionality using magic comments `/* webpackPreload: true */` or `/* webpackPrefetch: true */`. In our case a navigation to the page with posts won't be done immediately, so we will be relying on `webpackPrefetch`.
 Here is a detail explanation how it works https://developer.mozilla.org/en-US/docs/Web/HTML/Preloading_content.
 
-### Prefetching in action
+#### Prefetching in action
 By default, if we try loading the Angular scripts from the main entry, the page rendering process will be blocked. Here is a screenshot:
 ![Blocked rendering](./docs/blocked-calls.png)
 
