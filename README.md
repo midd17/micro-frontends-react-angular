@@ -6,7 +6,7 @@ A Proof of Concept of using React + Angular in micro frontends. Based on single-
 yarn
 ```
 
-#### Start applocation
+#### Start application
 ```bash
 yarn start
 ```
